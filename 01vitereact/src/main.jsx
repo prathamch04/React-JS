@@ -16,11 +16,12 @@ const anotherUser = "chai aur react"
 
 
 const reactElement = React.createElement(
-  'b',
+  'a',
   {href: 'https://google.com', target: '_blank'},
-  'Click me to visit google'
+  'Click me to visit google',
+  anotherUser
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <App />
+    reactElement
 )
