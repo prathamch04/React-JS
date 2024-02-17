@@ -52,7 +52,7 @@ function App() {
                   className='absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-600 text-white px-2 py-0.5'
                   onClick={swap}
                 >
-                  swap
+                  Swap
                 </button>
               </div>
 
@@ -70,7 +70,7 @@ function App() {
               <button type='submit'
                 className='w-full bg-blue-600 text-white px-4 py-3 rounded-lg'
               >
-                convert
+                Convert
               </button>
 
             </form>
